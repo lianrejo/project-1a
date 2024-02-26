@@ -1,0 +1,309 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Colour Reference
+----------------------------
+-- Main --
+Gunmetal - #253237
+French Gray - #C7C6DC
+Melon - #EAAFA9
+
+-- Optional --
+Dark Cambridge Blue - #8D9F87
+Light Cambridge Blue - #9EC5AB
+---------------------------- */
+
+
+/* Typography
+--------------------------------------------- */
+body {
+    line-height: 1.5;
+    color: #FAF9F6;	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2rem;
+   
+
+}
+
+p, li{
+	list-style: none;
+}
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+
+
+/* Links
+--------------------------------------------- */
+a,
+a.visited {
+	color: #253237;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color:#05032b;
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.site-wrapper {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+/* Tech Overview
+------------------- */
+.tech-title {
+    display: block;
+    padding: 0 3rem;
+}
+
+.tech-overview {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+.tech-overview article {
+    display: block;
+    align-items: center;
+    margin: 1rem 6rem;
+    width: 30rem;
+}
+
+/* Where
+------------------- */
+.where {
+    align-items: center;
+}
+
+.where h2{
+    text-align: center;
+}
+
+.grid-map {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 20rem;
+    align-items: center;
+}
+
+.grid-map div{
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    min-width: 3rem;
+	min-height: 3rem;
+    text-align: center;
+    text-wrap: wrap;
+    background-color:  #9EC5AB;
+    color: #253237;
+}
+
+.grid-map .documentation{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.grid-map .landing  {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.grid-map .personal{
+    grid-column: 2/4;
+    grid-row: 1/2;
+   
+}
+
+.grid-map .portfolio {
+    grid-column: 2/4;
+    grid-row: 2/3;
+   
+}
+
+.grid-map .educational  {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.grid-map .company  {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    
+}
+.grid-map .brochure  {
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.grid-map .event  {
+    grid-column: 5/6;
+    grid-row: 2/4
+}
+
+
+/* Pros & Cons
+----------------------- */
+.pros-cons-title {
+    display: block;
+    padding: 0 3rem;
+}
+
+.pros-cons {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+.pros-cons h3 {
+    text-align: center;
+}
+
+.pros-cons ul {
+    display: block;
+    align-items: center;
+    margin: 1rem ;
+    padding: 0 3rem;
+    width: 33rem;
+}
+
+
+/* .grid-map . */
+/* .where{
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    align-items: center;
+}
+
+.where p {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    background-color: #C7C6DC;
+    color: #253237;
+} */
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+section {
+	padding: 0 3rem;
+	margin-bottom: 2rem
+}
+
+
+/* Header
+--------------------------------------------- */
+header {
+    background-color: #C7C6DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0.8;
+    padding: 0 1rem;
+    
+}
+
+.header-title {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.site-nav {
+    display: block;
+    padding: 0.5rem;
+}
+
+.site-nav a {
+    padding: 0.5rem;
+}
+
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav ul li {
+    display: inline-block;
+}
+
+/* Main
+--------------------------------------------- */
+main {
+    background-color:#253237;
+    padding: 2rem 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Footer
+--------------------------------------------- */
+footer {
+    background-color: #C7C6DC;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    display: inline-block;
+    padding: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #253237;
+}
