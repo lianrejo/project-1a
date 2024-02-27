@@ -1,3 +1,26 @@
+/* -----------------------------
+TODO:
+
+Dani
+- Global fonts and sizing for text  
+- Add pictures to popular SSGs
+- Make grid pretty
+
+Aaron
+- Style header
+- Tweak tech overview & pros and cons sections
+- Add content for tech overview, what it is & what does it do
+
+Matthew
+- Style what is
+- Footer
+
+Lianrejo
+- Style why
+-------------------------------- */
+
+
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -112,6 +135,46 @@ a:active {
     align-items: center;
     margin: 1rem 6rem;
     width: 30rem;
+}
+/* What is  ------------------------------------ */
+.what-is ul {
+    display: block;
+    align-items: center;
+    margin: 1rem ;
+    padding: 0 3rem;
+   width: 30rem;
+   text-align: left;
+}
+.what-is-title {
+    display: block;
+    padding: 0 3rem;
+    text-align: center;
+}
+.what-is ul li {
+    margin-bottom: 0.5rem;
+}
+.what-is {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    padding: 0 1rem;
+    
+}
+.what-is ul p {
+    margin: 0;
+}
+
+/* Why ------------------------------------ */
+.why-title {
+    padding: 0 2rem;
+}
+
+.why {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Where
