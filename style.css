@@ -124,7 +124,7 @@ a:active {
     text-align: center;
 }
 
-.grid-map {
+.grid-where {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
@@ -134,7 +134,7 @@ a:active {
     align-items: center;
 }
 
-.grid-map div{
+.grid-where div{
     text-align: center;
     align-items: center;
     border: 1px solid white;
@@ -147,43 +147,43 @@ a:active {
     color: #253237;
 }
 
-.grid-map .documentation{
+.grid-where .documentation{
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
-.grid-map .landing  {
+.grid-where .landing  {
     grid-column: 1/2;
     grid-row: 2/4;
 }
 
-.grid-map .personal{
+.grid-where .personal{
     grid-column: 2/4;
     grid-row: 1/2;
    
 }
 
-.grid-map .portfolio {
+.grid-where .portfolio {
     grid-column: 2/4;
     grid-row: 2/3;
    
 }
 
-.grid-map .educational  {
+.grid-where .educational  {
     grid-column: 2/4;
     grid-row: 3/4;
 }
 
-.grid-map .company  {
+.grid-where .company  {
     grid-column: 4/6;
     grid-row: 1/2;
     
 }
-.grid-map .brochure  {
+.grid-where .brochure  {
     grid-column: 4/5;
     grid-row: 2/4;
 }
-.grid-map .event  {
+.grid-where .event  {
     grid-column: 5/6;
     grid-row: 2/4
 }
