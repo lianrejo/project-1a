@@ -185,22 +185,20 @@ main {
 .grid-where {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
+    max-width: 40.625rem;
     padding-bottom: 1rem;
-    margin: 0 20rem;
-    align-items: center;
+    margin: 0 auto;
 }
 
 .grid-where div{
     text-align: center;
     align-items: center;
-    border: 1px solid white;
+    padding: .625rem;
+    border: 1px solid #9EC5AB;
     border-radius: 1rem;
     min-width: 3rem;
-	min-height: 3rem;
-    text-align: center;
-    text-wrap: wrap;
+	min-height: 5rem;
     background-color:  #9EC5AB;
     color: #253237;
 }
