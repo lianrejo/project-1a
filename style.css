@@ -48,9 +48,13 @@ h5,
 h6 {
     font-size: 2rem;
     text-align: center;
-   
-
 }
+
+
+h1{
+    font-size: 2.5rem;
+}
+
 
 p {
 
@@ -100,7 +104,62 @@ a:active {
 	margin: 0 auto;
 }
 
-/* Tech Overview
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+section {
+	padding: 0 3rem;
+	margin-bottom: 2rem
+}
+
+
+/* Header
+--------------------------------------------- */
+header {
+    background-color: #C7C6DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0.8;
+    padding: 0 1rem;
+    
+}
+
+.header-title {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.site-nav {
+    display: block;
+    padding: 0.5rem;
+}
+
+.site-nav a {
+    padding: 0.5rem;
+}
+
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav ul li {
+    display: inline-block;
+}
+
+/* Main
+--------------------------------------------- */
+main {
+    background-color:#253237;
+    padding: 2rem 0;
+}
+
+
+/* Section Tech Overview
 ------------------- */
 .tech-title {
     display: block;
@@ -120,7 +179,7 @@ a:active {
     width: 30rem;
 }
 
-/* Where
+/*Section Where
 ------------------- */
 .where {
     align-items: center;
@@ -195,7 +254,7 @@ a:active {
 }
 
 
-/* Pros & Cons
+/* Section Pros & Cons
 ----------------------- */
 .pros-cons-title {
     display: block;
@@ -221,80 +280,8 @@ a:active {
 }
 
 
-/* .grid-map . */
-/* .where{
-    display: flex;
-    flex-direction:column ;
-    text-align: center;
-    align-items: center;
-}
-
-.where p {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: 1px solid white;
-    border-radius: 1rem;
-    background-color: #C7C6DC;
-    color: #253237;
-} */
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-section {
-	padding: 0 3rem;
-	margin-bottom: 2rem
-}
 
 
-/* Header
---------------------------------------------- */
-header {
-    background-color: #C7C6DC;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    line-height: 0.8;
-    padding: 0 1rem;
-    
-}
-
-.header-title {
-    font-size: 2rem;
-    display: inline-block;
-    padding: 1rem;
-    font-weight: 700;
-}
-
-.site-nav {
-    display: block;
-    padding: 0.5rem;
-}
-
-.site-nav a {
-    padding: 0.5rem;
-}
-
-.site-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-.site-nav ul li {
-    display: inline-block;
-}
-
-/* Main
---------------------------------------------- */
-main {
-    background-color:#253237;
-    padding: 2rem 0;
-}
-
-h1{
-    text-align: center;
-    font-size: 2.5rem;
-}
 
 /* Footer
 --------------------------------------------- */
