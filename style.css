@@ -47,13 +47,15 @@ h4,
 h5,
 h6 {
     font-size: 2rem;
+    text-align: center;
    
 
 }
 
-p, li{
-	list-style: none;
+p {
+
 }
+
 
 /* Elements
 --------------------------------------------- */
@@ -67,6 +69,10 @@ ol {
 
 dl {
 	
+}
+
+li{
+	list-style: none;
 }
 
 
