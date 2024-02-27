@@ -40,19 +40,17 @@ body {
     color: #FAF9F6;	
 }
 
-h1,
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-size: 2rem;
-    text-align: center;
-}
-
-
-h1{
-    font-size: 2.5rem;
 }
 
 
@@ -162,8 +160,7 @@ main {
 /* Section Tech Overview
 ------------------- */
 .tech-title {
-    display: block;
-    padding: 0 3rem;
+   text-align: center;
 }
 
 .tech-overview {
@@ -183,10 +180,6 @@ main {
 ------------------- */
 .where {
     align-items: center;
-}
-
-.where h2{
-    text-align: center;
 }
 
 .grid-where {
@@ -267,10 +260,6 @@ main {
     justify-content: center;
 }
 
-.pros-cons h3 {
-    text-align: center;
-}
-
 .pros-cons ul {
     display: block;
     align-items: center;
@@ -278,8 +267,6 @@ main {
     padding: 0 3rem;
     width: 33rem;
 }
-
-
 
 
 
