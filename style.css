@@ -59,6 +59,7 @@ Light Cambridge Blue - #9EC5AB
 /* Typography
 --------------------------------------------- */
 body {
+    font-family: "Open Sans", sans-serif;
     line-height: 1.5;
     color: #FAF9F6;	
 }
