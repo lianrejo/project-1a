@@ -1,0 +1,357 @@
+/* -----------------------------
+TODO:
+
+Dani
+- Global fonts and sizing for text  
+- Add pictures to popular SSGs
+- Make grid pretty
+
+Aaron
+- Style header
+- Tweak tech overview & pros and cons sections
+- Add content for tech overview, what it is & what does it do
+
+Matthew
+- Style what is
+- Footer
+
+Lianrejo
+- Style why
+-------------------------------- */
+
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Colour Reference
+----------------------------
+-- Main --
+Gunmetal - #253237
+French Gray - #C7C6DC
+Melon - #EAAFA9
+
+-- Optional --
+Dark Cambridge Blue - #8D9F87
+Light Cambridge Blue - #9EC5AB
+---------------------------- */
+
+
+/* Typography
+--------------------------------------------- */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    background-color:#253237;
+    color: #FAF9F6;	
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2.8125rem 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2rem;
+}
+
+
+p {
+
+}
+
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+li{
+	list-style: none;
+}
+
+
+
+/* Links
+--------------------------------------------- */
+a,
+a.visited {
+	color: #253237;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color:#05032b;
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.site-wrapper {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+section {
+	padding: 0 3rem;
+	margin-bottom: 2rem
+}
+
+/* Header
+--------------------------------------------- */
+header {
+    background-color: #C7C6DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0.8;
+    padding: 0 1rem;
+    
+}
+
+.header-title {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.site-nav {
+    display: block;
+    padding: 0.5rem;
+}
+
+.site-nav a {
+    padding: 0.5rem;
+}
+
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav ul li {
+    display: inline-block;
+}
+
+/* Main
+--------------------------------------------- */
+main {
+    padding: 2rem 0;
+}
+
+
+/* Section Tech Overview
+------------------- */
+.tech-title {
+   text-align: center;
+}
+
+.tech-overview {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+.tech-overview article {
+    display: block;
+    align-items: center;
+    margin: 1rem 6rem;
+    width: 30rem;
+}
+
+
+/* Section What is  ------------------------------------ */
+
+.what-is ul {
+    display: block;
+    align-items: center;
+    margin: 1rem ;
+    padding: 0 3rem;
+   width: 30rem;
+   text-align: left;
+}
+.what-is-title {
+    display: block;
+    padding: 0 3rem;
+    text-align: center;
+}
+.what-is ul li {
+    margin-bottom: 0.5rem;
+}
+.what-is {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    padding: 0 1rem;
+    
+}
+.what-is ul p {
+    margin: 0;
+}
+
+/* Section Why ------------------------------------ */
+
+.why-title {
+    padding: 0 2rem;
+}
+
+.why {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*Section Where
+------------------- */
+.grid-where {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    max-width: 40.625rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;   
+}
+
+.grid-where div{
+    align-items: center;
+    padding: .625rem;
+    border: 1px solid #9EC5AB;
+    border-radius: 1rem;
+    background-color:  #9EC5AB;
+    color: #253237;
+}
+
+.flex-item-grid {
+    display: flex;
+}
+
+.where p {
+    width: 100%;
+    text-align: center;
+}
+       
+.grid-where .documentation{
+    grid-column: 1/2;
+    grid-row: 1/2;  
+}
+
+.grid-where .landing  {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.grid-where .personal{
+    grid-column: 2/4;
+    grid-row: 1/2; 
+}
+
+.grid-where .portfolio {
+    grid-column: 2/4;
+    grid-row: 2/3;  
+}
+
+.grid-where .educational  {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.grid-where .company  {
+    grid-column: 4/6;
+    grid-row: 1/2;   
+}
+
+.grid-where .brochure  {
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
+.grid-where .event  {
+    grid-column: 5/6;
+    grid-row: 2/4
+}
+
+
+/* Section Pros & Cons
+----------------------- */
+.pros-cons-title {
+    display: block;
+    padding: 0 3rem;
+}
+
+.pros-cons {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+.pros-cons ul {
+    display: block;
+    align-items: center;
+    margin: 1rem ;
+    padding: 0 3rem;
+    width: 33rem;
+}
+
+
+
+/* Footer
+--------------------------------------------- */
+footer {
+    background-color: #C7C6DC;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    display: inline-block;
+    padding: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #253237;
+}
