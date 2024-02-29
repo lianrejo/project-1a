@@ -125,184 +125,6 @@ a:active {
 	margin: 0 auto;
 }
 
-/* Tech Overview
-------------------- */
-.tech-title {
-    display: block;
-    padding: 0 3rem;
-}
-
-.tech-overview {
-    display: flex;
-    margin: 1rem auto;
-    justify-content: center;
-}
-
-.tech-overview article {
-    display: block;
-    align-items: center;
-    margin: 1rem 6rem;
-    width: 30rem;
-}
-/* What is  ------------------------------------ */
-.what-is ul {
-    display: block;
-    align-items: center;
-    margin: 1rem ;
-    padding: 0 3rem;
-   width: 30rem;
-   text-align: left;
-}
-.what-is-title {
-    display: block;
-    padding: 0 3rem;
-    text-align: center;
-}
-.what-is ul li {
-    margin-bottom: 0.5rem;
-}
-.what-is {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem auto;
-    justify-content: center;
-    align-items: center;
-    width: 33%;
-    padding: 0 1rem;
-    
-}
-.what-is ul p {
-    margin: 0;
-}
-
-/* Why ------------------------------------ */
-.why-title {
-    padding: 0 2rem;
-}
-
-.why {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* Where
-------------------- */
-.where {
-    align-items: center;
-}
-
-.where h2{
-    text-align: center;
-}
-
-.grid-map {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    margin: 0 20rem;
-    align-items: center;
-}
-
-.grid-map div{
-    text-align: center;
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 1rem;
-    min-width: 3rem;
-	min-height: 3rem;
-    text-align: center;
-    text-wrap: wrap;
-    background-color:  #9EC5AB;
-    color: #253237;
-}
-
-.grid-map .documentation{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.grid-map .landing  {
-    grid-column: 1/2;
-    grid-row: 2/4;
-}
-
-.grid-map .personal{
-    grid-column: 2/4;
-    grid-row: 1/2;
-   
-}
-
-.grid-map .portfolio {
-    grid-column: 2/4;
-    grid-row: 2/3;
-   
-}
-
-.grid-map .educational  {
-    grid-column: 2/4;
-    grid-row: 3/4;
-}
-
-.grid-map .company  {
-    grid-column: 4/6;
-    grid-row: 1/2;
-    
-}
-.grid-map .brochure  {
-    grid-column: 4/5;
-    grid-row: 2/4;
-}
-.grid-map .event  {
-    grid-column: 5/6;
-    grid-row: 2/4
-}
-
-
-/* Pros & Cons
------------------------ */
-.pros-cons-title {
-    display: block;
-    padding: 0 3rem;
-}
-
-.pros-cons {
-    display: flex;
-    margin: 1rem auto;
-    justify-content: center;
-}
-
-.pros-cons h3 {
-    text-align: center;
-}
-
-.pros-cons ul {
-    display: block;
-    align-items: center;
-    margin: 1rem ;
-    padding: 0 3rem;
-    width: 33rem;
-}
-
-
-/* .grid-map . */
-/* .where{
-    display: flex;
-    flex-direction:column ;
-    text-align: center;
-    align-items: center;
-}
-
-.where p {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: 1px solid white;
-    border-radius: 1rem;
-    background-color: #C7C6DC;
-    color: #253237;
-} */
-
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -310,7 +132,6 @@ section {
 	padding: 0 3rem;
 	margin-bottom: 2rem
 }
-
 
 /* Header
 --------------------------------------------- */
@@ -375,6 +196,51 @@ main {
     margin: 1rem 6rem;
     width: 30rem;
 }
+
+
+/* Section What is  ------------------------------------ */
+
+.what-is ul {
+    display: block;
+    align-items: center;
+    margin: 1rem ;
+    padding: 0 3rem;
+   width: 30rem;
+   text-align: left;
+}
+.what-is-title {
+    display: block;
+    padding: 0 3rem;
+    text-align: center;
+}
+.what-is ul li {
+    margin-bottom: 0.5rem;
+}
+.what-is {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    padding: 0 1rem;
+    
+}
+.what-is ul p {
+    margin: 0;
+}
+
+/* Section Why ------------------------------------ */
+
+.why-title {
+    padding: 0 2rem;
+}
+
+.why {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /*Section Where
 ------------------- */
