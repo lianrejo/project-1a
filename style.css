@@ -61,6 +61,7 @@ Light Cambridge Blue - #9EC5AB
 body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
+    background-color:#253237;
     color: #FAF9F6;	
 }
 
@@ -174,7 +175,6 @@ header {
 /* Main
 --------------------------------------------- */
 main {
-    background-color:#253237;
     padding: 2rem 0;
 }
 
