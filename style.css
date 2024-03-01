@@ -251,7 +251,7 @@ main {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    max-width: 40.625rem;
+    max-width: 50rem;
     padding-bottom: 1rem;
     margin: 0 auto;   
 }
@@ -260,9 +260,12 @@ main {
     align-items: center;
     padding: .625rem;
     border: 1px solid #9EC5AB;
-    border-radius: 1rem;
+    border-radius: .625rem;
     background-color:  #9EC5AB;
     color: #253237;
+    font-weight: 600;
+    
+
 }
 
 .flex-item-grid {
