@@ -236,12 +236,14 @@ main {
 /* Section Why ------------------------------------ */
 
 .why-title {
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .why {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 2rem;
 }
 
 
