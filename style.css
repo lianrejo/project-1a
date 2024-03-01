@@ -337,6 +337,28 @@ main {
 }
 
 
+/* Section popular SSGs */
+
+.images-popular-ssgs {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+.images-popular-ssgs img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
 
 /* Footer
 --------------------------------------------- */
