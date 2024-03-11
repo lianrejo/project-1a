@@ -74,11 +74,10 @@ h1 {
 }
 
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3
+{
     font-size: 2rem;
+    text-align: center;
 }
 
 h2 {
@@ -193,10 +192,6 @@ main {
 
 /* Section Tech Overview
 ------------------- */
-.tech-title {
-   text-align: center;
-}
-
 .tech-overview {
     display: flex;
     margin: 1rem auto;
@@ -206,7 +201,6 @@ main {
 .tech-overview h3 {
     display: block;
     padding: 0 3rem;
-    text-align: center;
 }
 
 .tech-overview article {
@@ -244,7 +238,6 @@ main {
 .what-is-title {
     display: block;
     padding: 0 3rem;
-    text-align: center;
 }
 
 .what-is ul li {
@@ -368,9 +361,7 @@ main {
     color: #253237;
 }
 
-.pros-cons h3 {
-    text-align: center;
-}
+
 
 .pros-cons dl {
     display: block;
