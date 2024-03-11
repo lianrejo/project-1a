@@ -120,6 +120,10 @@ a:active {
     color:#05032b;
 }
 
+a:focus {
+    
+}
+
 
 /*--------------------------------------------------------------
 # Layout
@@ -193,11 +197,30 @@ main {
     justify-content: center;
 }
 
+.tech-overview h3 {
+    display: block;
+    padding: 0 3rem;
+    text-align: center;
+}
+
 .tech-overview article {
     display: block;
     align-items: center;
-    margin: 1rem 6rem;
     width: 30rem;
+}
+
+/* Blocks used in Tech Overview and What is sections */
+.blocks {
+    background-color: #C7C6DC;
+    margin: 2rem auto;
+    padding: 0 1.5rem 0.75rem;
+    border-radius: 2rem;
+}
+
+.blocks h2,
+.blocks h3,
+.blocks p {
+    color: #253237;
 }
 
 
@@ -208,27 +231,28 @@ main {
     align-items: center;
     margin: 1rem ;
     padding: 0 3rem;
-   width: 30rem;
-   text-align: left;
+    width: 30rem;
+    text-align: left;
 }
+
 .what-is-title {
     display: block;
     padding: 0 3rem;
     text-align: center;
 }
+
 .what-is ul li {
     margin-bottom: 0.5rem;
 }
+
 .what-is {
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
     justify-content: center;
     align-items: center;
     width: 33%;
-    padding: 0 1rem;
-    
 }
+
 .what-is ul p {
     margin: 0;
 }
@@ -272,8 +296,6 @@ main {
     background-color:  #9EC5AB;
     color: #253237;
     font-weight: 600;
-    
-
 }
 
 .flex-item-grid {
