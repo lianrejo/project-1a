@@ -62,7 +62,9 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
     background-color:#253237;
-    color: #FAF9F6;	
+    color: #FAF9F6;
+    font-size: 1rem;	
+    text-align: center;
 }
 
 h1 {
@@ -73,14 +75,15 @@ h1 {
 }
 
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3
+{
     font-size: 2rem;
+    text-align: center;
 }
 
-
+h2 {
+    margin: 3.5rem 0;
+}
 p {
 
 }
@@ -101,7 +104,7 @@ dl {
 }
 
 li{
-	list-style: none;
+	list-style: none;    
 }
 
 
@@ -118,6 +121,10 @@ a:hover,
 a:focus,
 a:active {
     color:#05032b;
+}
+
+a:focus {
+    
 }
 
 
@@ -146,13 +153,14 @@ header {
     justify-content: space-between;
     line-height: 0.8;
     padding: 0 1rem;
+    font-weight: 700;
     
 }
 
 .header-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: inline-block;
-    padding: 1rem;
+    padding: 1.5rem 0;
     font-weight: 700;
 }
 
@@ -183,21 +191,35 @@ main {
 
 /* Section Tech Overview
 ------------------- */
-.tech-title {
-   text-align: center;
-}
-
 .tech-overview {
     display: flex;
     margin: 1rem auto;
     justify-content: center;
 }
 
+.tech-overview h3 {
+    display: block;
+    padding: 0 3rem;
+}
+
 .tech-overview article {
     display: block;
     align-items: center;
-    margin: 1rem 6rem;
     width: 30rem;
+}
+
+/* Blocks used in Tech Overview and What is sections */
+.blocks {
+    background-color: #C7C6DC;
+    margin: 2rem auto;
+    padding: 0 1.5rem 0.75rem;
+    border-radius: 2rem;
+}
+
+.blocks h2,
+.blocks h3,
+.blocks p {
+    color: #253237;
 }
 
 
@@ -208,40 +230,57 @@ main {
     align-items: center;
     margin: 1rem ;
     padding: 0 3rem;
-   width: 30rem;
-   text-align: left;
+    width: 30rem;
+    text-align: left;
 }
+
 .what-is-title {
     display: block;
     padding: 0 3rem;
-    text-align: center;
 }
+
 .what-is ul li {
     margin-bottom: 0.5rem;
 }
+
 .what-is {
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
     justify-content: center;
     align-items: center;
     width: 33%;
-    padding: 0 1rem;
-    
 }
+
 .what-is ul p {
     margin: 0;
+}
+
+.what-is h3 {
+    margin: 1rem;
+}
+
+/* Section What does it do ------------------------ */
+
+.what-does-it-do-title {
+    padding: 0 5rem;
+}
+
+.what-does-it-do p {
+    margin: 0 3rem;
+    padding: 0 5rem;
 }
 
 /* Section Why ------------------------------------ */
 
 .why-title {
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .why {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -251,7 +290,7 @@ main {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    max-width: 40.625rem;
+    max-width: 50rem;
     padding-bottom: 1rem;
     margin: 0 auto;   
 }
@@ -260,9 +299,10 @@ main {
     align-items: center;
     padding: .625rem;
     border: 1px solid #9EC5AB;
-    border-radius: 1rem;
+    border-radius: .625rem;
     background-color:  #9EC5AB;
     color: #253237;
+    font-weight: 600;
 }
 
 .flex-item-grid {
@@ -326,17 +366,61 @@ main {
     display: flex;
     margin: 1rem auto;
     justify-content: center;
+    color: #253237;
 }
 
-.pros-cons ul {
+
+
+.pros-cons dl {
     display: block;
     align-items: center;
-    margin: 1rem ;
-    padding: 0 3rem;
+    background-color: #C7C6DC;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 0 3rem 1.5rem;
     width: 33rem;
 }
 
+.pros-cons dl dt {
+    font-weight: 700;
+}
 
+.pros-cons dl dt,
+.pros-cons dl dd {
+    padding: 0.25rem 0;
+}
+
+
+/* Section popular SSGs */
+
+.images-popular-ssgs {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+.images-popular-ssgs img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.commonly-used figcaption {
+    font-size: small;
+    padding-top: .5rem;
+}
+
+.commonly-used ul {
+    line-height: 2;
+    margin-left: 4rem;
+
+}
 
 /* Footer
 --------------------------------------------- */
