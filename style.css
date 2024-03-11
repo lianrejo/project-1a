@@ -233,6 +233,12 @@ main {
     margin: 0;
 }
 
+/* Section What does it do ------------------------ */
+
+.what-does-it-do-title {
+    padding: 0 3rem;
+}
+
 /* Section Why ------------------------------------ */
 
 .why-title {
