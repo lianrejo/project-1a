@@ -254,14 +254,19 @@ main {
     margin: 0;
 }
 
-.what-is h2 {
+.what-is h3 {
     margin: 1rem;
 }
 
 /* Section What does it do ------------------------ */
 
 .what-does-it-do-title {
-    padding: 0 3rem;
+    padding: 0 5rem;
+}
+
+.what-does-it-do p {
+    margin: 0 3rem;
+    padding: 0 5rem;
 }
 
 /* Section Why ------------------------------------ */
