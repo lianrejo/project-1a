@@ -62,7 +62,8 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
     background-color:#253237;
-    color: #FAF9F6;	
+    color: #FAF9F6;
+    font-size: 1rem;	
 }
 
 h1 {
