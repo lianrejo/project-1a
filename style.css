@@ -84,24 +84,9 @@ h3
 h2 {
     margin: 3.5rem 0;
 }
-p {
-
-}
-
 
 /* Elements
 --------------------------------------------- */
-ul {
-	
-}
-
-ol {
-	
-}
-
-dl {
-	
-}
 
 li{
 	list-style: none;    
@@ -124,7 +109,7 @@ a:active {
 }
 
 a:focus {
-    
+    background-color: #9EC5AB;
 }
 
 
@@ -189,7 +174,7 @@ main {
 }
 
 
-/* Section Tech Overview
+/* Section: Tech Overview
 ------------------- */
 .tech-overview {
     display: flex;
@@ -223,7 +208,7 @@ main {
 }
 
 
-/* Section What is  ------------------------------------ */
+/* Section What is:  ------------------------------------ */
 
 .what-is ul {
     display: block;
@@ -260,7 +245,7 @@ main {
     margin: 1rem;
 }
 
-/* Section What does it do ------------------------ */
+/* Section: What does it do ------------------------ */
 
 .what-does-it-do-title {
     padding: 0 5rem;
@@ -277,13 +262,16 @@ main {
     padding: 0 3rem;
 }
 
-.why {
+.why-articles {
     display: flex;
     justify-content: center;
     gap: 3rem;
     padding-bottom: 2rem;
 }
 
+.why-articles article {
+    width: 24.0625rem;
+}
 
 /*Section Where
 ------------------- */
@@ -384,11 +372,12 @@ main {
 
 .pros-cons dl dt {
     font-weight: 700;
+    padding: 2rem 0 1rem;
 }
 
 .pros-cons dl dt,
 .pros-cons dl dd {
-    padding: 0.75rem 0;
+    /* padding: 0.75rem 0; */
     margin: 0 auto;
 }
 
@@ -421,6 +410,11 @@ main {
 .commonly-used ul {
     line-height: 2;
     margin: 4rem auto;
+    padding: 0;
+}
+
+.commonly-used strong {
+    font-weight: 800;
 }
 
 /* Footer
