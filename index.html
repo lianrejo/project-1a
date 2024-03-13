@@ -15,7 +15,7 @@
 <body>
 <div class="site-wrapper">
 
-    <header>   
+    <header class="site-header">   
         <a href="index.html" class="header-title">Static Site Generators</a>
 
         <nav class="site-nav" id="site-nav">
@@ -23,70 +23,83 @@
                 <li><a href="#tech-overview">Overview</a></li>
                 <li><a href="#what-does-it-do">Details</a></li>
                 <li><a href="#pros-cons">Pros & Cons</a></li>
+                <li><a href="#commonly-used">Common SSGs</a></li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <h1>Static Site Generators</h1>
+    <main class="site-main">
+        <h1 class="site-title">Static Site Generators</h1>
 
-        <h2 id="tech-overview" class="tech-title">Technology Overview</h2>
+        
         <section class= "tech-overview">
 
-            <article class="blocks">
-                <h3>Static Websites</h3>
-                <p>Static websites are made up of fixed content that doesn't change unless it is manually updated. Webpages are stored as static files that are sent when requested by a user. Since they don't require any server-side processing, static websites tend to have faster loading times and are much easier to deploy and maintain.</p>
-            </article>
+            <h2 id="tech-overview" class="tech-overview-title">Technology Overview</h2>
             
-            <article class="blocks">
-                <h3>Dynamic Websites</h3>
-                <p>Dynamic website content is usually pulled from a database and changes based on user interaction. Each page is generated in response to a user's request using server-side scripting languages. The request is processed by the server and data is fetched to generate the HTML content. Dynamic websites allow for interactivity, personalized user experience and real-time updates.</p>
-            </article>
-            
+            <div class="overview-articles">
+                <article class="blocks">
+                    <h3>Static Websites</h3>
+                    <p>Static websites are made up of fixed content that doesn't change unless it is manually updated. Webpages are stored as static files that are sent when requested by a user. Since they don't require any server-side processing, static websites tend to have faster loading times and are much easier to deploy and maintain.</p>
+                </article>
+                
+                <article class="blocks">
+                    <h3>Dynamic Websites</h3>
+                    <p>Dynamic website content is usually pulled from a database and changes based on user interaction. Each page is generated in response to a user's request using server-side scripting languages. The request is processed by the server and data is fetched to generate the HTML content. Dynamic websites allow for interactivity, personalized user experience and real-time updates.</p>
+                </article>
+            </div>
+
         </section>
 
         
 
-        <section class="what-is blocks">
+        <section class="what-is-it blocks">
             
-            <h2 class="what-is-title">What is it</h2>
+            <h2 class="what-is-it-title">What is it</h2>
 
             <p>Static Site Generators (SSGs) are software tools used to create static websites. They transform plain text files that contain the website's content and markup into a static HTML page. The resulting website consists of a set of HTML, CSS, and JavaScript files, and other assets, that can be served by a web server to visitors.
             </p>
     
         </section>
 
-        <h2 id="what-does-it-do" class="what-does-it-do-title">What does it do</h2>
+        
 
-        <section class="what-does-it-do">
-            
+        <section class="what-does-it-do" id="what-does-it-do">
+
+            <h2  class="what-does-it-do-title">What does it do</h2>
+
             <p>In order to use an SSG, you first write your website content in plain text files. These can be organized into directories according to your site structure. Next, the layout of your website has to be defined using a templating language. In addition to formatting, you can setup navigation menus and site-wide options. Once these steps are completed, running the SSG will generate the necessary HTML files for your website. These files can then be easily deployed to a web server or hosting platform. To make changes to your website, simply modify the content files or templates and run the SSG again.  
             </p>
-            
+
         </section>
 
         
         <section class="why" id="why">
+
             <h2 class="why-title">Why would you use it</h2>
+
             <div class="why-articles">
                 <article>
                     <h3>Simplicity</h3>
                     <p>Easy to set up and maintain compared to dynamic websites.</p>
                 </article>
+
                 <article>
                     <h3>Performance</h3>    
                     <p>Handle heavy traffic, and load much faster than dynamic sites.</p>
                 </article>
+
                 <article>
                     <h3>Security</h3>
                     <p>There is no database for would-be hackers to attack.</p>
                 </article>
             </div>
+
         </section>
 
 
         <section class="where" id="where">
-            <h2>Where would you use Static Site Generators</h2>
+            <h2 class="where-title">Where would you use Static Site Generators</h2>
+
             <div class="grid-where">
             <div class="documentation flex-item-grid"><p>Documentation Sites</p></div>
             <div class="landing flex-item-grid"><p>Landing Pages</p></div>
@@ -97,12 +110,12 @@
             <div class="brochure flex-item-grid"><p>Brochure Website</p></div>
             <div class="event flex-item-grid"><p>Event Website</p></div>
             </div>
-            
         </section>
 
         
         <section id="pros-cons" class="pros-cons">
             <h2 class="pros-cons-title">Pros and Cons</h2>
+
             <section class="list-section">
                 <div class="list">
                     <h3>Pros</h3>
@@ -136,9 +149,9 @@
         </section>
 
         <section class="commonly-used" id="commonly-used">
-            <h2>What are commonly used SSGs</h2>
+            <h2 class="commonly-used-title">What are commonly used SSGs</h2>
 
-            <section class="images-popular-ssgs">
+            <div class="images-popular-ssgs">
                 <figure>
                     <img src="images/website-hugo.jpg" alt="Screenshot of the Hugo website">
                     <figcaption>Hugo Website</figcaption>
@@ -168,7 +181,7 @@
                     <img src="images/website-astro.jpg" alt="Screenshot of the Astro website">
                     <figcaption>Astro Website</figcaption>
                 </figure>
-            </section>
+            </div>
 
 
             <ul>
@@ -185,7 +198,7 @@
      
     </main>
  
-    <footer>
+    <footer class="site-footer">
         <p>© Matthew Lew, Aaron Bence, Lianrejo Sepnio, Dani Melo </p>
         <p>For educational purposes only.</p>  
     </footer>

@@ -82,7 +82,7 @@ h3
 }
 
 h2 {
-    margin: 3.5rem 0;
+    margin: 5rem 0 3rem;
 }
 
 /* Elements
@@ -105,7 +105,7 @@ a.visited {
 a:hover,
 a:focus,
 a:active {
-    color:#05032b;
+    color:#000000;
 }
 
 a:focus {
@@ -131,7 +131,7 @@ section {
 
 /* Header
 --------------------------------------------- */
-header {
+.site-header {
     background-color: #C7C6DC;
     display: flex;
     align-items: center;
@@ -169,16 +169,16 @@ header {
 
 /* Main
 --------------------------------------------- */
-main {
+.site-main {
     padding: 2rem 0;
 }
 
 
 /* Section: Tech Overview
 ------------------- */
-.tech-overview {
+.overview-articles {
     display: flex;
-    margin: 1rem auto;
+    margin: 0 auto;
     justify-content: center;
 }
 
@@ -210,7 +210,7 @@ main {
 
 /* Section What is:  ------------------------------------ */
 
-.what-is ul {
+.what-is-it ul {
     display: block;
     align-items: center;
     margin: 1rem ;
@@ -219,17 +219,17 @@ main {
     text-align: left;
 }
 
-.what-is-title {
+.what-is-it-title {
     display: block;
     padding: 0 3rem;
     margin: 1.75rem 0 1rem;
 }
 
-.what-is ul li {
+.what-is-it ul li {
     margin-bottom: 0.5rem;
 }
 
-.what-is {
+.what-is-it {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,11 +237,11 @@ main {
     width: 33%;
 }
 
-.what-is ul p {
+.what-is-it ul p {
     margin: 0;
 }
 
-.what-is h3 {
+.what-is-it h3 {
     margin: 1rem;
 }
 
@@ -260,6 +260,7 @@ main {
 
 .why-title {
     padding: 0 3rem;
+    margin-bottom: 1rem; 
 }
 
 .why-articles {
@@ -419,7 +420,7 @@ main {
 
 /* Footer
 --------------------------------------------- */
-footer {
+.site-footer {
     background-color: #C7C6DC;
     font-size: 1rem;
     display: flex;
@@ -427,7 +428,7 @@ footer {
     justify-content: space-between;
 }
 
-footer p {
+.site-footer p {
     display: inline-block;
     padding: 0.75rem;
     padding-left: 2rem;
